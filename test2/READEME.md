@@ -1,4 +1,4 @@
-# 实验2：用户及权限管理
+!# 实验2：用户及权限管理
 
 ## 实验目的：
 
@@ -15,19 +15,20 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 对于以下的对象名称con_res_view，new_user，在实验的时候应该修改为自己的名称。
 
 - 第1步：以system登录到pdborcl，创建角色gaojie和用户gaojie2，并授权和分配空间：
-
+![](./1.png)
 
 > 语句“ALTER USER new_user QUOTA 50M ON users;”是指授权new_user用户访问users表空间，空间限额是50M。
 
 - 第2步：新用户gaojie2连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
-
+![](./2.png)
 
 - 第3步：用户hr连接到pdborcl，查询gaojie2授予它的视图myview
 
-
+![](./3.png)
 
 > 测试一下同学用户之间的表的共享，只读共享和读写共享都测试一下。
-
+![](./4.png)
+![](./5.png)
 ## 数据库和表空间占用分析
 
 > 当全班同学的实验都做完之后，数据库pdborcl中包含了每个同学的角色和用户。
