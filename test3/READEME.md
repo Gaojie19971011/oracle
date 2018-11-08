@@ -16,13 +16,14 @@
 
 【示例8-11】在主表orders和从表order_details之间建立引用分区
 在study用户中创建两个表：orders（订单表）和order_details（订单详表），两个表通过列order_id建立主外键关联。orders表按范围分区进行存储，order_details使用引用分区进行存储。
-创建orders表：
-
+ 
+ 创建orders表：
+![](./1.png)
 
 
 创建order_details表：
 
-
+![](./2.png)
 
 ## 查看数据库的使用情况
 
