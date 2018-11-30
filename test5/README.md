@@ -1,10 +1,10 @@
 # 实验5：PL/SQL编程
 
-## 创建一个包(Package)，包名是MyPackage:  
+## 创建一个包(Package)，包名是MyPack:  
 
 ![](0.png)
 
-## 在MyPackage中创建一个函数SaleAmount 和一个过程：  
+## 在MyPack中创建一个函数SaleAmount 和一个过程：  
 
 ![](1.png)
 
